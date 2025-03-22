@@ -1,0 +1,429 @@
+/*
+  The Name:
+  Author: 
+  Support: 
+  Description: 
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+/* ============================ deafult section start ============================== */
+/* google fonts */
+
+
+/* font  family  */
+.tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Black.woff2') format('woff2'),
+        url('../fonts/Metropolis-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+        url('../fonts/Metropolis-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Extra';
+    src: url('../fonts/Metropolis-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Metropolis-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Extra';
+    src: url('../fonts/Metropolis-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+        url('../fonts/Metropolis-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Semi';
+    src: url('../fonts/Metropolis-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Extra';
+    src: url('../fonts/Metropolis-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Metropolis-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-RegularItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+        url('../fonts/Metropolis-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Extra';
+    src: url('../fonts/Metropolis-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.woff2') format('woff2'),
+        url('../fonts/Metropolis-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-LightItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis-Semi';
+    src: url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+        url('../fonts/Metropolis-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Metropolis-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Thin.woff2') format('woff2'),
+        url('../fonts/Metropolis-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: 'Metropolis', sans-serif;
+	color: #231F20;
+}
+
+/* lenis */
+html.lenis,
+html.lenis body {
+	height: auto;
+}
+
+.lenis.lenis-smooth {
+	scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+	overflow: hidden;
+}
+
+/* lenis */
+
+/* scroll bar */
+.os-scrollbar-handle {
+	background: #BF1F1F;
+}
+
+body>.os-scrollbar {
+	z-index: 999;
+}
+
+/* scroll bar */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* animation */
+.animation-line {
+	overflow: hidden;
+}
+
+/* animation */
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.bg-fix {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* container */
+.container {
+	max-width: 1242px;
+}
+
+/* z-index */
+.z-4 {
+	z-index: 4 !important;
+}
+
+.z-5 {
+	z-index: 5 !important;
+}
+
+.z-6 {
+	z-index: 6 !important;
+}
+
+/* z-index */
+
+/* input */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+textarea {
+	width: 100%;
+	padding: 12px;
+	background: #fff;
+	border: 1px solid #000;
+	color: rgba(80, 80, 80, 0.50);
+    font-family: 'Metropolis' , sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	opacity: 1;
+}
+
+textarea {
+	height: 116px;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+::placeholder {
+	color: rgba(80, 80, 80, 0.50);
+    font-family: 'Metropolis' , sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/* input */
+
+
+.animation-line p:last-child,
+.mb-p p:last-child {
+	margin-bottom: 0;
+}
+
+/* heading  style*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #94C949;
+	font-weight: 700;
+	line-height: 1.15;
+    font-family: 'Metropolis' , sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+	font-size: 96px;
+}
+
+h2 {
+	font-size: 58px;
+}
+
+h3 {
+	font-size: 45px;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+h5 {
+	font-size: 28px;
+}
+
+h6 {
+	font-size: 20px;
+}
+
+
+/* all font color */
+.font-white{
+    color: #fff;
+}
+/* all font color */
+/* all button */
+.btn-1 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+.btn-1.black-version{
+    color: #1E1E1E;
+}
+.btn-1:hover{
+    color: #fff;
+}
+.btn-1.black-version:hover{
+    color: #1E1E1E;
+}
+/* all button */
+
+
+/* ============== banner area section start ================== */
+.banner-area{
+    min-height: 1083px;
+    height: 100vh;
+}
+.banner-conent h1{
+    font-size: 117.48px;
+    line-height: 0.9; 
+    letter-spacing: 3.524px;
+}
+.banner-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%);
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+.banner-content-info::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #4E4E53 0%, #4E4E53 100%);
+
+    opacity: 0.95;
+    z-index: -1;
+}
+.banner-content-info{
+    max-width: 862px;
+}
+.banner-content-info p{
+    color: #fff;
+}
+.pneumatic-content h3{
+    line-height: 1.2;
+    color: #4E4E53;
+}
+/* ============== banner area section end ================== */

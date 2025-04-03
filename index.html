@@ -23,8 +23,17 @@
 	</head>
 	<body data-overlayscrollbars-initialize>
 		<!-- offcanvas section start -->
-
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		  <div class="offcanvas-header">
+			<h5 id="offcanvasRightLabel">Offcanvas right</h5>
+			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		  </div>
+		  <div class="offcanvas-body">
+			...
+		  </div>
+		</div>
 		<!-- offcanvas section end -->
+
 		<!-- header section start -->
 		<header class="header-area position-relative z-1">
 			<img src="assets/images/heaer/header-shape.png" alt="..." class="header-shape position-absolute" >
@@ -49,12 +58,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="mobile-header">
+				<div class="mobile-header d-block d-lg-none">
 					<div class="row">
-						<div class="col-auto">
+						<div class="col col-auto">
 							<a href="#" class="header-logo">
 								<img src="assets/images/logo/header-logo.svg" alt="...">
 							</a>
+						</div>
+						<div class="col">
+							<div class="d-flex justify-content-end">
+								<button class="humbarger-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" type="button">
+									<span></span>
+									<span></span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -96,7 +113,7 @@
 						<div class="col">
 							<div class="chef-img-wrapper position-relative z-1">
 								<img src="assets/images/chef/chef-img.jpg" alt="..." class="chef-img">
-								<img src="assets/images/chef/circle-img.svg" alt="..." class="circle-img">
+								<img src="assets/images/chef/circle-img.svg" alt="..." class="circle-img rotate-img">
 							</div>
 						</div>
 					</div>
@@ -117,7 +134,7 @@
 						<div class="row">
 							<div class="col-lg-4">
 								<a href="#" class="supplier-card-wrapper position-relative z-1">
-									<img src="assets/images/supplier/circle-img.svg" alt="..." class="supplier-circle-img">
+									<img src="assets/images/supplier/circle-img.svg" alt="..." class="supplier-circle-img rotate-img">
 									<div class="supplier-card-img-wrapper overflow-hidden position-relative z-1">
 										<img src="assets/images/supplier/supplier-01.jpg" alt="...">
 										<span class="btn-1">Learn More</span>

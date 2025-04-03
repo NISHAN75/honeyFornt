@@ -18,6 +18,16 @@
             },
           });
 
+        //   gast
+        $(".rotate-img").each(function () {
+            gsap.to($(this), {
+              rotation: 360,
+              duration: 5, // Adjust speed as needed
+              repeat: -1,  // Infinite loop
+              ease: "linear"
+            });
+          });
+
 
         // OverlayScrollbars
         const {

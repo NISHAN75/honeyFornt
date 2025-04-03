@@ -208,7 +208,7 @@ h6 {
 /* all font color */
 .btn-1 {
     display: inline-block;
-    background: transparent;
+    background: #FCF6E7;
     color: #FBF5E7;
     font-family: "Rubik", sans-serif;
     font-size: 18px;
@@ -220,6 +220,7 @@ h6 {
     z-index: 2;
     text-transform: uppercase;
     border: 3px solid #1D472F;
+
     transition: all 0.3s linear;
 }
 .btn-1::before {
@@ -685,4 +686,5 @@ h6 {
     margin-top: 43px;
     margin-left: 43px;
 }
+
 /* ============================ footer section end ============================== */

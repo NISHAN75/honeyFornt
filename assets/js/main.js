@@ -9,7 +9,14 @@
 
 
 
+        // testimonial 
 
+        var swiper = new Swiper(".testimonial-slider", {
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+          });
 
 
         // OverlayScrollbars

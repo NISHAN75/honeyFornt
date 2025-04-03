@@ -10,6 +10,11 @@
 
 /* min-width 1500 */
 @media (max-width: 1500px) {
+/* ============================ supplier section start ============================== */
+.supplier-card-area .row {
+    --bs-gutter-x: 20px;
+}
+/* ============================ supplier section end ============================== */
 
 
 

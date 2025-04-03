@@ -14,178 +14,23 @@
 /* ============================ deafult section start ============================== */
 /* google fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-/* font  family  */
-.tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Black.woff2') format('woff2'),
-        url('../fonts/Metropolis-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+.tk-roboto{
+    font-family: "Roboto", sans-serif;
 }
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
-        url('../fonts/Metropolis-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-BlackItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraBold.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraLightItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Medium.woff2') format('woff2'),
-        url('../fonts/Metropolis-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Semi';
-    src: url('../fonts/Metropolis-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraLight.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-MediumItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-RegularItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-RegularItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
-        url('../fonts/Metropolis-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Light.woff2') format('woff2'),
-        url('../fonts/Metropolis-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-LightItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Semi';
-    src: url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
-        url('../fonts/Metropolis-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-ThinItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Thin.woff2') format('woff2'),
-        url('../fonts/Metropolis-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+.tk-rubik{
+    font-family: "Rubik", sans-serif;
 }
 
 
 body {
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.5;
 	font-weight: 400;
-	font-family: 'Metropolis', sans-serif;
-	color: #231F20;
+    font-family: "Roboto", sans-serif;
+	color: #242424;
+    background-color: #FFFCF6;
 }
 
 /* lenis */
@@ -210,7 +55,7 @@ html.lenis body {
 
 /* scroll bar */
 .os-scrollbar-handle {
-	background: #BF1F1F;
+	background: #E06138;
 }
 
 body>.os-scrollbar {
@@ -253,7 +98,7 @@ img {
 
 /* container */
 .container {
-	max-width: 1242px;
+	max-width: 1404px;
 }
 
 /* z-index */
@@ -324,19 +169,19 @@ h3,
 h4,
 h5,
 h6 {
-	color: #94C949;
-	font-weight: 700;
-	line-height: 1.15;
-    font-family: 'Metropolis' , sans-serif;
+	color: #17442C;
+	font-weight: 600;
+	line-height: 1.2;
+    font-family: "Rubik", sans-serif;
     text-transform: uppercase;
 }
 
 h1 {
-	font-size: 96px;
+	font-size: 90px;
 }
 
 h2 {
-	font-size: 58px;
+	font-size: 55px;
 }
 
 h3 {
@@ -352,7 +197,7 @@ h5 {
 }
 
 h6 {
-	font-size: 20px;
+	font-size: 23px;
 }
 
 
@@ -361,69 +206,458 @@ h6 {
     color: #fff;
 }
 /* all font color */
-/* all button */
 .btn-1 {
-    color: #FFF;
-    font-size: 16px;
+    display: inline-block;
+    background: #1D472F;
+    color: #FBF5E7;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
     font-weight: 700;
-    letter-spacing: 1.28px;
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
+    line-height: 1.5;
+    border-radius: 30px;
+    padding: 15px 27.7px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
 }
-.btn-1.black-version{
-    color: #1E1E1E;
+.btn-1::before{
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    height: calc(100% - 6px);
+    width: calc(100% - 8px);
+    border: 2px solid #FCF6E7;
+    border-radius: 30px;
+    transition: all 0.3s linear;
 }
 .btn-1:hover{
-    color: #fff;
+    color: #FBF5E7;
 }
-.btn-1.black-version:hover{
-    color: #1E1E1E;
+.btn-1.orange-version {
+    background-color: #E06138;
+    padding: 18px 26px;
+}
+.btn-1.orange-version::before{
+    border: 3px solid #FCF6E7;
+}
+.btn-1.version-2::before{
+    display: none;
+}
+.btn-1.version-2 {
+    border: 3px solid #F4ECE1;
+    background: #1D462E;
 }
 /* all button */
 
+/* all button */
 
-/* ============== banner area section start ================== */
-.banner-area{
-    min-height: 1083px;
-    height: 100vh;
-}
-.banner-conent h1{
-    font-size: 117.48px;
-    line-height: 0.9; 
-    letter-spacing: 3.524px;
-}
-.banner-area::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%);
-    mix-blend-mode: multiply;
-    z-index: 1;
-}
-.banner-content-info::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(180deg, #4E4E53 0%, #4E4E53 100%);
+/* ============================ deafult section end ============================== */
 
-    opacity: 0.95;
+/* ============================ header section start ============================== */
+.header-area {
+    padding: 49px 0;
+}
+.header-area .container{
+    max-width: 1570px;
+}
+.button-wrapper .btn-1:nth-child(1) {
+    padding: 15px 22px;
+}
+.header-shape {
+    z-index: -1;
+    max-width: 632px;
+    top: 0;
+    right:0;
+}
+.button-wrapper {
+    gap: 25px;
+}
+/* ============================ header section end ============================== */
+
+/* ============================ banner section start ============================== */
+.banner-area {
+    margin-top: 20px;
+}
+.banner-area .container{
+    max-width: 1508px;
+}
+.banner-content {
+    max-width: 1194px;
+    margin-bottom: 70px;
+}
+.banner-content h1 {
+    color: #E06138;
+}
+.banner-content p {
+    font-size: 21px;
+}
+.video-area{
+    border-radius: 25px;
+}
+.video-area video {
+    height: 764px;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-shape{
+    max-width: 656px;
+    top: -35px;
+    z-index: -1;
+    left: 0;
+}
+/* ============================ banner section end ============================== */
+
+/* ============================ chef section start ============================== */
+.chef-area {
+    padding-top: 159px;
+}
+.chef-area .row{
+    --bs-gutter-x:0px;
+}
+.chef-area .col:nth-child(2){
+    max-width: 623px;
+}
+.sub-title{
+    display: inline-block;
+    color: #E06138;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.chef-img-wrapper .chef-img{
+    border-radius: 30px;
+}
+.chef-img-wrapper  .circle-img {
+    position: absolute;
+    top: -38px;
+    right: -41px;
+}
+.chef-content {
+    max-width: 665px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-right: 108px;
+    margin-top: 110px;
+}
+.chef-content .sub-title{
+    margin-bottom: 10px;
+}
+.chef-content h2{
+    margin-bottom: 31px;
+}
+.chef-content p{
+    font-size: 17px;
+}
+.chef-shape {
+    max-width: 781px;
+    left: 0;
+    top: 24px;
     z-index: -1;
 }
-.banner-content-info{
-    max-width: 862px;
+/* ============================ chef section end ============================== */
+
+/* ============================ supplier section start ============================== */
+.supplier-area{
+    padding-top: 126px;
 }
-.banner-content-info p{
-    color: #fff;
+.supplier-area .sub-title{
+    margin-bottom: 21px;
 }
-.pneumatic-content h3{
-    line-height: 1.2;
-    color: #4E4E53;
+.supplier-area .section-title-wrapper{
+    margin-bottom: 100px;
 }
-/* ============== banner area section end ================== */
+.supplier-area .section-title-wrapper h2 {
+    font-size: 81px;
+}
+.supplier-card-img-wrapper img{
+    border-radius: 30px;
+}
+.supplier-card-wrapper .btn-1 {
+    background: transparent;
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    color: #FFFFFF;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px 24px 15px 14px;
+}
+.supplier-card-wrapper .btn-1::before {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 4px solid #FFFCF6;
+    border-radius: 0px 30px 30px 0px;
+    border-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.supplier-card-wrapper:hover .btn-1 {
+    background: #E06138;
+    padding: 15px 28px 15px 14px;
+}
+.supplier-card-wrapper:hover .btn-1::before{
+    opacity: 0;
+    visibility: hidden;
+}
+.supplier-card-wrapper:hover .btn-1::after{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: calc(100% - 4px);
+    width: calc(100% - 3px);
+    border: 1.5px solid #FFFCF6;
+    border-left: 0;
+    border-radius: 0px 30px 30px 0px;
+    transition: all 0.3s linear;
+}
+.supplier-card-wrapper:hover .btn-1::after{
+    opacity: 1;
+    visibility: visible;
+}
+.supplier-content-wrapper {
+    margin-top: 36px;
+}
+.supplier-content-wrapper h6{
+    color: #242424;
+}
+.supplier-card-area .row {
+    --bs-gutter-x: 46px;
+    --bs-gutter-y: 46px;
+}
+.supplier-shape-1 {
+    max-width: 262px;
+    top: -46px;
+    left: 0;
+}
+.supplier-shape-2 {
+    top: 27px;
+    right: 0;
+    max-width: 316px;
+}
+.supplier-circle-img {
+    position: absolute;
+    top: -111px;
+    left: -94px;
+    z-index: 2;
+    max-width: 184px;
+}
+/* ============================ supplier section end ============================== */
+
+/* ============================ testimonial section start ============================== */
+.testimonial-area {
+    padding: 140px 0;
+}
+.testimonial-content blockquote {
+    color: #E06138;
+    font-family: "Rubik", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 28px;
+}
+.testimonial-content h6 {
+    color: #1D472F;
+    font-size: 30px;
+    font-weight: 700;
+}
+.testimonial-content {
+    max-width: 849px;
+}
+/* swiper */
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0;
+}
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,14px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,14px));
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,8px);
+}
+.testimonial-area .swiper {
+    padding-bottom: 54px;
+}
+.swiper-pagination-bullet {
+    background: transparent;
+    opacity: 1;
+    border: 2px solid #E0C5A5;
+}
+.swiper-pagination-bullet-active {
+    background: #E0C5A5;
+}
+/* swiper */
+.testimonial-shape-1 {
+    top: -10px;
+    left: 0;
+    max-width: 411px;
+}
+.testimonial-shape-2 {
+    top: 148px;
+    right: 0;
+    max-width: 363px;
+}
+/* ============================ testimonial section end ============================== */
+
+
+/* ============================ cta section start ============================== */
+.cta-area {
+    padding: 93px 0 100px;
+}
+.cta-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(32, 32, 32, 0.53);
+    z-index: 1;
+}
+.cta-conent {
+    max-width: 882px;
+}
+.cta-conent h2 {
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.45);
+    font-size: 95px;
+    line-height: 1.02;
+    letter-spacing: 8.55px;
+    margin-bottom: 35px;
+}
+.cta-conent .btn-1 {
+    padding: 15px 35px;
+}
+/* ============================ cta section end ============================== */
+
+/* ============================ footer section start ============================== */
+.footer-area{
+    padding: 22px 0 60px;
+    background: #1D462E;
+}
+.footer-area .container{
+    max-width: 1534px;
+}
+.footer-area .row {
+    --bs-gutter-x: 0;
+}
+.footer-logo {
+    max-width: 414px;
+    margin-left: 43px;
+    margin-right: 20px;
+}
+.footer-main-menu .col:nth-child(2){
+    max-width: 259px;
+}
+.footer-main-menu .col:nth-child(3){
+    max-width: 307px;
+}
+.footer-main-menu .col:nth-child(4) {
+    max-width: 270px;
+    margin-left: -62px;
+}
+.footer-main-menu .col:nth-child(5){
+    max-width: 248px;
+} 
+.other-link-wrapper  a ,
+.copy-right-caption p ,
+.footer-item-wrapper h6 ,
+.footer-item-info p{
+    color: #FBF5E7;
+    line-height: 1.5;
+}
+.footer-item-wrapper h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.footer-item-info p {
+    font-family: "Rubik", sans-serif;
+    font-size: 19px;
+}
+.num-link ,
+.footer-item-info a{
+    color: #FBF5E7;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    display: inline-block;
+    transition: all 0.3s linear;
+}
+
+.footer-item-info .num-link{
+    font-size: 17px;
+}
+.socials-link-wrapper{
+    gap: 22px;
+}
+.footer-item-info .num-link:hover ,
+.footer-item-info a:hover,
+.address-info a ,
+.socials-link-wrapper a{
+    text-decoration: none;
+}
+.footer-item-info a {
+    margin-bottom: 7px;
+}
+.footer-item-info a:last-child{
+    margin-bottom: 0;
+}
+.footer-item .footer-item-info a{
+    margin-bottom: 5px;
+}
+.footer-item {
+    margin-bottom: 14px;
+}
+.footer-item:last-child{
+    margin-bottom: 0;
+}
+.footer-item-wrapper .btn-1.version-2{
+    margin-bottom: 18px;
+}
+.footer-item-wrapper .btn-1.version-2:last-child{
+    margin-bottom: 0;
+}
+.footer-item-wrapper .btn-1.version-2:nth-child(1){
+    padding: 12px 22px;
+}
+.footer-item-wrapper .btn-1.version-2:nth-child(2) {
+    padding: 12px 37px;
+}
+.span-line{
+    width: 100%;
+    height: 3px;
+    background: #FCF6E7;
+    margin-bottom: 15px;
+}
+.span-line:last-child{
+    margin-bottom: 0;
+}
+
+.span-line-wrapper {
+    margin-bottom: 75px;
+}
+.other-link-wrapper  a ,
+.copy-right-caption p {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.other-link-wrapper{
+    gap: 24px;
+}
+.other-link-wrapper  a{
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+.other-link-wrapper  a:hover{
+    text-decoration: none;
+}
+/* ============================ footer section end ============================== */

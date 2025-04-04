@@ -23,10 +23,15 @@
 	</head>
 	<body data-overlayscrollbars-initialize>
 		<!-- offcanvas section start -->
-		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-		  <div class="offcanvas-header">
-			<h5 id="offcanvasRightLabel">Offcanvas right</h5>
-			<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		<div class="offcanvas header-offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+		  <div class="offcanvas-header justify-content-between">
+			<a href="index.html" class="offcanvas-logo">
+				<img src="assets/images/logo/footer-logo.png" alt="">
+			</a>
+			<button type="button" class="btn-close d-flex align-items-center justify-content-center flex-column" data-bs-dismiss="offcanvas" aria-label="Close">
+				<span></span>
+				<span></span>
+			</button>
 		  </div>
 		  <div class="offcanvas-body">
 			...
@@ -68,6 +73,7 @@
 						<div class="col">
 							<div class="d-flex justify-content-end">
 								<button class="humbarger-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" type="button">
+									<span></span>
 									<span></span>
 									<span></span>
 								</button>

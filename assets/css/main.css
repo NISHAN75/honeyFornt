@@ -688,3 +688,127 @@ h6 {
 }
 
 /* ============================ footer section end ============================== */
+
+
+
+
+/* header offcanvas start*/
+.offcanvas-header {
+	padding: 14px 19px 32px 38px;
+}
+
+.offcanvas-body {
+	padding: 0 38px 20px;
+}
+
+.humbarger-btn {
+    border: 0;
+    height: 47px;
+    width: 47px;
+    background: #F4ECE1;
+    transition: all 0.3s linear;
+    position: relative;
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px solid #E06138;
+}
+.humbarger-btn::before{
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+    border-radius: 50%;
+    z-index: -1;
+    background: #E06138;
+}
+.humbarger-btn span {
+    display: block;
+    background-color: #F4ECE1;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    top: 25px;
+    transition: all 0.3s linear;
+    left: 50%;
+    transform: translate(-50%, -1.5px);
+}
+.humbarger-btn span:nth-child(1) {
+	top: 14.5px;
+}
+.humbarger-btn span:nth-child(2) {
+    top: 21.5px;
+    opacity: 1;
+    visibility: visible;
+}
+.humbarger-btn span:nth-child(3) {
+    top: auto;
+    bottom: 12px;
+}
+
+.humbarger-btn.open span:nth-child(1) {
+	top: 8px;
+}
+.humbarger-btn.open span:nth-child(3) {
+    top: auto;
+	bottom: 6px;
+}
+.humbarger-btn.open span:nth-child(2) {
+	opacity: 0;
+    visibility: hidden;
+}
+
+.btn-close {
+    --bs-btn-close-bg: none;
+    --bs-btn-close-opacity: 1;
+    --bs-btn-close-hover-opacity: 1;
+    border: 0;
+    border-radius: 0;
+    height: 47px;
+    width: 47px;
+    gap: 0px;
+    -webkit-transition: top ease .3s, -webkit-transform ease .3s .3s;
+    -o-transition: top ease .3s, transform ease .3s .3s;
+    transition: background-color ease .3s, top ease .3s, transform ease .3s .3s,
+		-webkit-transform ease .3s .3s;
+    background-color: #F4ECE1;
+    border-radius: 50%;
+    border: 2px solid #E06138;
+    position: relative;
+    z-index: 1;
+}
+.btn-close::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: calc(100% - 4px);
+    width: calc(100% - 4px);
+    z-index: -1;
+    background: #E06138;
+    border-radius: 50%;
+}
+
+.header-offcanvas .btn-close {
+	padding: 0;
+	margin: 0;
+}
+
+.btn-close span {
+    background-color: #FFFFFF;
+    height: 2px;
+    width: 20px;
+    -webkit-transition: top ease .3s, -webkit-transform ease .3s .3s;
+    -o-transition: top ease .3s, transform ease .3s .3s;
+    transition: top ease .3s, transform ease .3s .3s,
+		-webkit-transform ease .3s .3s;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.offcanvas-logo img {
+    max-width: 145px;
+}
+/* header offcanvas end*/

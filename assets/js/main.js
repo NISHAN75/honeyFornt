@@ -5,7 +5,42 @@
       
 
 
- 
+         // offcanvas humbarger
+         let offcanvasElement = $('.header-offcanvas');
+         offcanvasElement.on('show.bs.offcanvas', function () {
+             $('.humbarger-btn').addClass('open');
+             $('.btn-close span:nth-child(1)').css({
+                 transform: 'rotate(45deg)',
+                 marginBottom: '0'
+             });
+             $('.btn-close span:nth-child(2)').css({
+                 transform: 'rotate(-45deg)',
+                 marginTop: '-2px'
+             });
+         });
+         offcanvasElement.on('hide.bs.offcanvas', function () {
+             $('.humbarger-btn').removeClass('open');
+             $('.btn-close span:nth-child(1)').css({
+                 transform: '',
+                 marginBottom: ''
+             });
+             $('.btn-close span:nth-child(2)').css({
+                 transform: '',
+                 marginTop: ''
+             });
+         });
+         // offcanvas menu 
+         $(".mobile-nav a").click(function (e) {
+             let subMenu = $(this).next(".sub-menu");
+             if (subMenu.length > 0) {
+                 e.preventDefault();
+                 let parentLi = $(this).parent();
+                 parentLi.siblings(".menu-item-has-children").find(".sub-menu").slideUp();
+                 parentLi.siblings(".menu-item-has-children").find("a").removeClass("rotate active");
+                 $(this).toggleClass("rotate active");
+                 subMenu.stop(true, true).slideToggle();
+             }
+         });
 
 
 

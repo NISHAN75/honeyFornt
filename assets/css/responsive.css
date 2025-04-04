@@ -35,17 +35,38 @@
 @media (max-width: 991.98px) {
 
 
+    /* ============================ header section start ============================== */
+    .header-area {
+        padding: 23px 0;
+    }
+    .header-logo img {
+        max-width: 250px;
+    }
+    /* ============================ header section end ============================== */
+
+
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
+    /* ============================ header section start ============================== */
+    .header-logo img {
+        max-width: 180px;
+    }
+    /* ============================ header section end ============================== */
 
 	
 }
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
-	
+	    /* ============================ header section start ============================== */
+        .header-logo img {
+            max-width: 128px;
+        }
+        
+        /* ============================ header section end ============================== */
+    
 }
 
 /* max-width 479 */

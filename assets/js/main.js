@@ -2,8 +2,12 @@
     $(document).ready(function () {
 
 	
-      
-
+        //   menu link change
+        $('.our-menu-wrapper li').click(function(e) {
+            e.preventDefault(); 
+            $('.our-menu-wrapper li').removeClass('active');
+            $(this).addClass('active'); 
+          });
 
          // offcanvas humbarger
          let offcanvasElement = $('.header-offcanvas');

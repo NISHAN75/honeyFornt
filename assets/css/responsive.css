@@ -6,13 +6,15 @@
 */
 
 /* min-width 1500 */
-@media (max-width: 1600px) {}
+@media (max-width: 1600px) {
+}
 
 /* min-width 1500 */
 @media (max-width: 1500px) {
 /* ============================ supplier section start ============================== */
 .supplier-card-area .row {
     --bs-gutter-x: 20px;
+    --bs-gutter-y:37px;
 }
 /* ============================ supplier section end ============================== */
 
@@ -22,19 +24,110 @@
 
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
-	
+    /* ============================ chef section start ============================== */
+    .chef-content {
+        padding-right: 50px;
+    }
+    /* ============================ chef section end ============================== */
+
+    /* ============================ footer section start ============================== */
+    .footer-main-menu .col:nth-child(3) ,
+    .footer-main-menu .col:nth-child(2) {
+        max-width: 240px;
+    }
+    .footer-main-menu .col:nth-child(4) {
+        max-width: 200px;
+        margin-left: -60px;
+    }
+    /* ============================ footer section end ============================== */
 }
 
 /* max-width 1199 */
 @media (max-width: 1199.98px) {
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+    /* shape */
+    .banner-shape ,
+    .header-shape {
+        max-width: 400px;
+    }
+    .chef-shape {
+        max-width: 650px;
+    }
+    .supplier-shape-2 ,
+    .supplier-shape-1{
+        max-width: 180px;
+    }
+    .testimonial-shape-2 ,
+    .testimonial-shape-1 {
+        max-width: 300px;
+    }
+    /* shape */
+    /* ============================ header section start ============================== */
+    .header-logo img {
+        max-width: 250px;
+    }
+    .header-area {
+        padding: 20px 0;
+    }
+    /* ============================ header section end ============================== */
+    /* ============================ chef section start ============================== */
+    .chef-content {
+        margin-top: 50px;
+    }
+    /* ============================ chef section end ============================== */
 
+    /* ============================ footer section start ============================== */
+    .footer-main-menu .col {
+        flex: 1 0 30%;
+    }
+    .copy-right-wrapper ,
+    .footer-logo {
+        margin-left: 0;
+    }
+    .footer-main-menu .col:nth-child(4) {
+        max-width: 250px;
+        margin-left: 0;
+    }
+    .footer-main-menu .row {
+        --bs-gutter-y: 22px;
+    }
+    .footer-item-info p {
+        margin-bottom: 10px;
+    }
+    .footer-item-info p:last-child{
+        margin-bottom: 0;
+    }
+    /* ============================ footer section end ============================== */
 
 }
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
 
-
+    /* header style */
+    h1 {
+        font-size: 55px;
+    }
+    
+    h2 {
+        font-size: 53px;
+    }
+    /* shape */
+    .banner-shape, .header-shape {
+        max-width: 350px;
+    }
+    /* shape */
+    .sub-title {
+        font-size: 17px;
+        letter-spacing: 3.4px;
+    }
+    .supplier-area .sub-title ,
+    .chef-content .sub-title {
+        margin-bottom: 0;
+    }
     /* ============================ header section start ============================== */
     .header-area {
         padding: 23px 0;
@@ -44,17 +137,242 @@
     }
     /* ============================ header section end ============================== */
 
+    /* ============================ banner section start ============================== */
+    .banner-area {
+        margin-top: 5px;
+    }
+    .banner-content {
+        margin-bottom: 30px;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+    }
+    .banner-content p {
+        font-size: 16px;
+    }
+    .banner-content .btn-1 {
+        margin-top: 24px;
+        font-size: 16px;
+        padding: 11.5px 20.5px;
+    }
+    .video-area {
+        width: calc(100% + 24px);
+        margin-left: -12px;
+    }
+    .video-area video {
+        height: 450px;
+    }
+    /* ============================ banner section end ============================== */
+
+    /* ============================ chef section start ============================== */
+    .chef-area {
+        padding-top: 26px;
+    }
+    .chef-area .col {
+        flex: 1 0 100%;
+    }
+    .chef-area .col:nth-child(2) {
+        max-width: 100%;
+    }
+    .chef-content {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+        margin-top: 0;
+    }
+    .chef-content h2 {
+        font-size: 53px;
+        line-height: 1;
+        margin-bottom: 29px;
+    }
+    .chef-img-wrapper .chef-img {
+        margin-bottom: 27px;
+    }
+    /* ============================ chef section end ============================== */
+
+    /* ============================ supplier section start ============================== */
+    .supplier-area {
+        padding-top: 80px;
+    }
+    .chef-content-caption p {
+        font-size: 16px;
+    }
+    .supplier-area .section-title-wrapper h2 {
+        font-size: 55px;
+        line-height: 1.04;
+    }
+    .supplier-area .section-title-wrapper {
+        margin-bottom: 38px;
+    }
+    .chef-img-wrapper .chef-img ,
+    .supplier-card-img-wrapper img {
+        border-radius: 11px;
+    }
+    .supplier-content-wrapper h6 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin-bottom: 0;
+    }
+    .supplier-content-wrapper  p{
+        font-size: 16px;
+    }
+    .supplier-content-wrapper {
+        margin-top: 16px;
+    }
+    .supplier-card-wrapper .btn-1 {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+        padding: 13px 20px 13px 14px;
+    }
+    .supplier-card-wrapper .btn-1::before {
+        border: 1.5px solid #FFFCF6;
+    }
+    .supplier-card-wrapper:hover .btn-1 {
+        padding: 13.5px 23px 13.5px 14px;
+        text-shadow: none;
+    }
+    /* ============================ supplier section end ============================== */
+
+    /* ============================ testimonial section start ============================== */
+    .testimonial-area {
+        padding: 66px 0 58px;
+    }
+    .testimonial-content blockquote {
+        font-size: 24px;
+    }
+    .testimonial-content h6 {
+        font-size: 20px;
+    }
+    .testimonial-area .swiper {
+        padding-bottom: 36px;
+    }
+    /* ============================ testimonial section end ============================== */
+
+    /* ============================ cta section start ============================== */
+    .cta-area::before {
+        background: rgba(32, 32, 32, 0.43);
+    }
+    .cta-conent h2 {
+        font-size: 50px;
+        text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.45);
+        letter-spacing: 3.51px;
+        margin-bottom: 20px;
+    }
+    .cta-conent .btn-1 {
+        padding: 8.5px 23px;
+    }
+    /* ============================ cta section end ============================== */
+
+    /* ============================ footer section start ============================== */
+    .footer-main-menu .col:nth-child(3), .footer-main-menu .col:nth-child(2) {
+        max-width: 200px;
+    }
+    .footer-main-menu .col:nth-child(4) {
+        max-width: 200px;
+    }
+    .copy-right-wrapper::before{
+        content: "";
+        position: absolute;
+        left: -42px;
+        top: 0;
+        height: 0.5px;
+        width: calc(100% + 84px);
+        background-color: #fff;
+        z-index: 1;
+    }
+    .copy-right-wrapper .row {
+        flex-direction: column-reverse;
+    }
+    .other-link-wrapper {
+        gap: 45px;
+        margin-bottom: 10px;
+    }
+    .copy-right-wrapper {
+        padding-top: 32px;
+        margin-top: 27px;
+    }
+    /* ============================ footer section end ============================== */
+
+
 
 }
 
 /* max-width 767 */
 @media (max-width: 767.98px) {
+
+    /* shape */
+    .banner-shape{
+        max-width: 167px;
+    }
+    .header-shape {
+        max-width: 167px;
+    }
+    /* shape */
     /* ============================ header section start ============================== */
     .header-logo img {
         max-width: 180px;
     }
     /* ============================ header section end ============================== */
 
+    /* ============================ footer section start ============================== */
+    .footer-area {
+        padding: 9px 0 37px;
+    }
+    .footer-main-menu .col {
+        flex: 1 0 100%;
+    }
+    .footer-main-menu .col:nth-child(5) ,
+    .footer-main-menu .col:nth-child(3), .footer-main-menu .col:nth-child(2) ,
+    .footer-main-menu .col:nth-child(4) {
+        max-width: 100%;
+    }
+    .copy-right-wrapper, .footer-logo {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+    .footer-logo img {
+        max-width: 282px;
+    }
+    .footer-area .span-line {
+        margin-bottom: 7px;
+    }
+    .footer-area .span-line-wrapper {
+        margin-bottom: 29px;
+    }
+    .footer-main-menu .col:nth-child(3) .footer-item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .footer-item {
+        margin-bottom: 0;
+    }
+    .footer-item:last-child{
+        margin-bottom: 20px;
+    }
+    .socials-link-wrapper {
+        gap: 28px;
+        margin-top: 9px;
+    }
+    .socials-link-wrapper a svg {
+        height: 30px;
+        width: 30px;
+    }
+    .footer-item-wrapper .btn-1.version-2 {
+        margin-bottom: 10px;
+    }
+    .footer-item-wrapper .btn-1.version-2:nth-child(1) {
+        padding: 11.5px 29px;
+    }
+    .footer-item-wrapper .btn-1.version-2:last-child {
+        padding: 11.5px 18.5px;
+    }
+    .footer-main-menu {
+        padding: 0 10px;
+    }
+    /* ============================ footer section end ============================== */
 	
 }
 
@@ -64,15 +382,60 @@
         .header-logo img {
             max-width: 128px;
         }
-        
         /* ============================ header section end ============================== */
-    
+
+        /* ============================ banner section start ============================== */
+        .video-area video {
+            height: 393px;
+        }
+        /* ============================ banner section end ============================== */
+        /* ============================ testimonial section start ============================== */
+        .testimonial-content blockquote {
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+        .testimonial-content h6 {
+            font-size: 17px;
+        }
+        /* ============================ testimonial section end ============================== */
 }
 
 /* max-width 479 */
 @media (max-width: 479.98px) {
+    /* ============================ chef section start ============================== */
+    .chef-img-wrapper .chef-img {
+        height: 288px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .chef-content-caption {
+        max-width: 287px;
+    }
+    /* ============================ chef section end ============================== */
 
+    /* ============================ testimonial section start ============================== */
+    .testimonial-content {
+        max-width: 268px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+    }
+    .swiper-pagination-bullet {
+        width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+        height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+    }
+    /* ============================ testimonial section end ============================== */
+    /* ============================ cta section start ============================== */
+    .cta-area {
+        padding: 58px 0 46px;
+    }
+    .cta-conent h2 {
+        font-size: 39px;
+        margin-bottom: 7px;
+    }
 
+    /* ============================ cta section end ============================== */
 }
 
 /* max-width 383 */

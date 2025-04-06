@@ -3,10 +3,18 @@
 
 	
         //   menu link change
-        $('.our-menu-wrapper li').click(function(e) {
-            e.preventDefault(); 
-            $('.our-menu-wrapper li').removeClass('active');
-            $(this).addClass('active'); 
+        $('.our-menu-wrapper li').on({
+            click: function(e) {
+              $('.our-menu-wrapper li').removeClass('active clicked');
+              $(this).addClass('active clicked');
+            },
+            mouseenter: function() {
+              $('.our-menu-wrapper li').removeClass('active');
+              $(this).addClass('active');
+            },
+            mouseleave: function() {
+              $('.our-menu-wrapper li.clicked').addClass('active');
+            }
           });
 
          // offcanvas humbarger

@@ -31,6 +31,7 @@ body {
     font-family: "Roboto", sans-serif;
 	color: #242424;
     background-color: #FFFCF6;
+    overflow: hidden;
 }
 
 /* lenis */
@@ -223,6 +224,7 @@ h6 {
 
     transition: all 0.3s linear;
 }
+.our-menu-wrapper ul li a::before,
 .btn-1::before {
     content: "";
     position: absolute;
@@ -239,6 +241,7 @@ h6 {
 .btn-1:hover{
     color: #FBF5E7;
 }
+.our-menu-wrapper ul li.active:hover a::before ,
 .btn-1:hover::before{
     height: calc(100% + 4px);
     width: calc(100% + 4px);
@@ -496,8 +499,9 @@ h6 {
 .header-shape {
     z-index: -1;
     max-width: 632px;
-    top: 0;
-    right:0;
+    top: -324px;
+    right: -172px;
+    opacity: 0.21;
 }
 .button-wrapper {
     gap: 25px;
@@ -536,11 +540,12 @@ h6 {
     object-fit: cover;
     display: block;
 }
-.banner-shape{
+.banner-shape {
     max-width: 656px;
-    top: -35px;
+    top: 104px;
     z-index: -1;
-    left: 0;
+    left: -184px;
+    opacity: 0.21;
 }
 /* ============================ banner section end ============================== */
 
@@ -590,9 +595,10 @@ h6 {
 }
 .chef-shape {
     max-width: 781px;
-    left: 0;
-    top: 24px;
+    left: -197px;
+    top: 126px;
     z-index: -1;
+    opacity: 0.23;
 }
 /* ============================ chef section end ============================== */
 
@@ -676,15 +682,17 @@ h6 {
 }
 .supplier-shape-1 {
     max-width: 262px;
-    top: -46px;
-    left: 0;
+    top: -42px;
+    left: -42px;
     z-index: -1;
+    opacity: 0.23;
 }
 .supplier-shape-2 {
-    top: 27px;
-    right: 0;
+    top: 58px;
+    right: -98px;
     max-width: 316px;
     z-index: -1;
+    opacity: 0.31;
 }
 .supplier-circle-img {
     position: absolute;
@@ -741,16 +749,18 @@ h6 {
 }
 /* swiper */
 .testimonial-shape-1 {
-    top: -10px;
-    left: 0;
-    max-width: 411px;
+    top: 42px;
+    left: -86px;
+    max-width: 494px;
     z-index: -1;
+    opacity: 0.33;
 }
 .testimonial-shape-2 {
     top: 148px;
-    right: 0;
-    max-width: 363px;
+    right: -78px;
+    max-width: 441px;
     z-index: -1;
+    opacity: 0.45;
 }
 /* ============================ testimonial section end ============================== */
 
@@ -916,7 +926,10 @@ h6 {
 
 /* ============================ footer section end ============================== */
 
-/* ============================ our menu area section start ============================== */
+/* ============================ single banner section start ============================== */
+.single-banner-area {
+    margin-top: 10px;
+}
 .single-banner-area .container {
     max-width: 1494px;
 }
@@ -932,6 +945,7 @@ h6 {
     top: 0;
     height: 100%;
     width: 100%;
+    border-radius: 41px;
     background: rgba(32, 32, 32, 0.41);
     z-index: 1;
 }
@@ -950,7 +964,13 @@ h6 {
     font-size: 88px;
     letter-spacing: 12.32px;
 }
-/* ============================ our menu area section start ============================== */
+.single-banner-circle-img {
+    z-index: 4;
+    max-width: 184px;
+    top: -28px;
+    left: -47px;
+}
+/* ============================ single banner section end ============================== */
 
 /* ============================ our menu area section start ============================== */
 .our-menu-area {
@@ -995,29 +1015,15 @@ h6 {
     border-color:#E06138;
     color: #FBF5E7;
 }
-.our-menu-wrapper ul li a::before{
-    content: "";
-    position: absolute;
-    left: 2px;
-    top: 2px;
-    height: calc(100% - 4px);
-    width: calc(100% - 4px);
+.our-menu-wrapper ul li a::before {
     background-color: #E06138;
-    z-index: -1;
     border-radius: 34px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s linear;
 }
 .our-menu-wrapper ul li.active a::before{
     opacity: 1;
     visibility: visible;
-}
-.our-menu-wrapper ul li.active:hover a::before{
-    top: -2px;
-    left: -2px;
-    height: calc(100% + 4px);
-    width: calc(100% + 4px);
 }
 
 .our-menu-item {
@@ -1037,6 +1043,104 @@ h6 {
     font-weight: 700;
     margin-bottom: 0;
 }
+
+/* menu shape  */
+.z-nagative{
+    z-index: -1;
+}
+.menu-shape-1 {
+    top: 142px;
+    left: 72px;
+    max-width: 241px;
+    opacity: 0.35;
+}
+.menu-shape-2 {
+    max-width: 786px;
+    left: -252px;
+    bottom: 133px;
+    opacity: 0.40;
+}
+.menu-shape-3 {
+    top: 68px;
+    right: 0;
+    max-height: 746px;
+    transform: rotate(-48.24deg);
+    opacity: 0.34;
+}
+.menu-shape-4 {
+    max-width: 230px;
+    right: 115px;
+    bottom: 239px;
+    opacity: 0.23;
+}
+.menu-shape-5 {
+    max-width: 640px;
+    left: -243px;
+    top: 150px;
+    opacity: 0.32;
+}
+.menu-shape-6 {
+    max-width: 232px;
+    top: 50%;
+    transform: translateY(-50%) rotate(34.09deg);
+    left: 94px;
+    margin-top: -40px;
+    opacity: 0.35;
+}
+.menu-shape-7 {
+    max-width: 634px;
+    opacity: 0.32;
+    left: -221px;
+    bottom: 210px;
+}
+.menu-shape-8 {
+    max-height: 257px;
+    right: -235.89px;
+    top: 250px;
+    transform: rotate(40.4deg);
+    opacity: 0.35;
+}
+.menu-shape-9 {
+    max-width: 288px;
+    top: 614px;
+    right: 64px;
+    transform: rotate(-26.17deg);
+    opacity: 0.32;
+}
+.menu-shape-10 {
+    max-width: 735.88px;
+    bottom: 517px;
+    right: -220px;
+    transform: rotate(-9.26deg);
+    opacity: 0.32;
+}
+.menu-shape-11 {
+    max-width: 602px;
+    bottom: 109px;
+    right: -187px;
+    transform: rotate(25.75deg);
+    opacity: 0.4;
+}
+/* menu shape  */
+.extra-sides-area {
+    margin-top: 70px;
+}
+.extra-sides-area h2 {
+    color: #E06138;
+    font-size: 88px;
+    letter-spacing: 5.28px;
+    margin-bottom: 55px;
+}
+.extra-sides-area h3 {
+    color: #1D462E;
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 33px;
+}
+.extra-sides-area h3:last-child{
+    margin-bottom: 0;
+}
+
 /* ============================ our menu area section end ============================== */
 
 

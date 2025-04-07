@@ -54,7 +54,8 @@
              }
          });
 
-
+        //  nice select
+        $('select').niceSelect();
 
         // testimonial 
 

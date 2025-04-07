@@ -7,6 +7,15 @@
 
 /* min-width 1500 */
 @media (max-width: 1600px) {
+    /* shape */
+    .content-shape-7,
+    .content-shape-4 {
+        max-width: 600px;
+    }
+    .content-shape-7{
+        top: 0;
+    }
+    /* shape */
     /* ============================ single banner section start ============================== */
     .single-banner-circle-img {
         max-width: 150px;
@@ -50,6 +59,27 @@
         right: 0;
         max-height: 550px;
     }
+
+    .content-shape-4{
+        top: -330px;
+    }
+    .content-shape-5 {
+        right: 300px;
+        max-width: 200px;
+    }
+    .content-shape-7 {
+        left: -100px;
+        transform: rotate(75deg);
+        opacity: 0.32;
+        top: auto;
+        bottom: 0;
+    }
+    .content-shape-6 {
+        top: -50px;
+        left: 70px;
+        max-width: 220px;
+    }
+
     /* shape */
     /* ============================ chef section start ============================== */
     .chef-content {
@@ -67,6 +97,24 @@
         margin-left: -60px;
     }
     /* ============================ footer section end ============================== */
+
+    /* ============================ content wrapper area start ============================== */
+    .contact-wrapper-area {
+        margin-left: 30px;
+    }
+    .contact-form-wrapper .row {
+        --bs-gutter-x: 14px;
+    }
+    /* thank content */
+    .thank-you-content-wrapper {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+    .thank-you-content-wrapper h1 {
+        font-size: 50px;
+    }
+    /* thank content */
+    /* ============================ content wrapper area end ============================== */
 }
 
 /* max-width 1199 */
@@ -75,7 +123,9 @@
         padding-left: 42px;
         padding-right: 42px;
     }
-
+    .supplier-card-area {
+        padding-left: 0px;
+    }
     /* shape */
     .header-shape {
         top: -216px;
@@ -157,6 +207,26 @@
         right: -150px;
         max-width: 450px;
     }
+    .content-shape-4 {
+        max-width: 350px;
+        top: -200px;
+        right: -100px;
+    }
+    .content-shape-5 {
+        right: 200px;
+        max-width: 120px;
+        bottom: -50px;
+    }
+    .content-shape-6 {
+        top: 0;
+        left: 50px;
+        max-width: 80px;
+    }
+    .content-shape-7 {
+        left: -50px;
+        bottom: 10px;
+        max-width: 300px;
+    }
     /* shape */
 
     /* ============================ header section start ============================== */
@@ -168,6 +238,9 @@
     }
     .single-banner-area {
         margin-top: 30px;
+    }
+    .right-button-wrapper {
+        padding-right: 0px;
     }
     /* ============================ header section end ============================== */
     /* ============================ chef section start ============================== */
@@ -198,6 +271,15 @@
         margin-bottom: 0;
     }
     /* ============================ footer section end ============================== */
+    
+    /* ============================ other page section start ============================== */
+    .other-conent-wrapper h1 {
+        font-size: 60px;
+        margin-bottom: 12px;
+    }
+    /* ============================ other page section end ============================== */
+
+
 
 }
 
@@ -309,6 +391,19 @@
     .menu-shape-20 {
         max-width: 120px;
     }
+    .content-shape-3 {
+        max-width: 150px;
+        left: -13px;
+        top: auto;
+        bottom: 28px;
+    }
+    .content-shape-2 {
+        max-width: 100px;
+        right: -27px;
+        bottom: auto;
+        top: 134px;
+        opacity: 0.36;
+    }
     /* shape */
 
     .sub-title {
@@ -319,12 +414,24 @@
     .chef-content .sub-title {
         margin-bottom: 0;
     }
+    .content-shape-4{
+        max-width: 300px;
+    }
+    .content-shape-4 {
+        max-width: 300px;
+        top: -100px;
+        right: -50px;
+    }
     /* ============================ header section start ============================== */
     .header-area {
         padding: 23px 0;
     }
     .header-logo img {
         max-width: 250px;
+    }
+    .mobile-header {
+        width: calc(100% + 28px);
+        margin-left: -14px;
     }
     /* ============================ header section end ============================== */
 
@@ -552,6 +659,7 @@
         font-size: 16px;
         margin-bottom: 0;
     }
+    .contact-content p br ,
     .our-menu-item br{
         display: none;
     }
@@ -571,6 +679,76 @@
         margin-top: 40px;
     }
     /* ============================ our menu area section end ============================== */
+
+    /* ============================ content wrapper area start ============================== */
+    .content-wrapper-area {
+        padding: 54px 0;
+    }
+    .content-wrapper-area .col {
+        flex: 1 0 100%;
+    }
+    .content-wrapper-area .row .col:nth-child(1) {
+        max-width: 100%;
+    }
+    .content-wrapper-img img {
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 11px;
+    }
+    .contact-wrapper-area {
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .content-wrapper-area > .container > .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 30px;
+        flex-direction: column-reverse;
+    }
+    .other-conent-wrapper h1 ,
+    .contact-content h1{
+        font-size: 36px;
+    }
+    .content-wrapper-img {
+        width: calc(100%  + 6px);
+        margin-left: -3px;
+    }
+    .thank-you-info p ,
+    .contact-content p {
+        font-size: 20px;
+    }
+    /* thank content */
+    .thank-you-content-wrapper {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .thank-you-content-wrapper h1 {
+        font-size: 40px;
+    }
+    .thank-you-info p {
+        margin-bottom: 10px;
+    }
+    .thank-you-info {
+        margin-bottom: 20px;
+    }
+    .other-conent-wrapper .btn-1 ,
+    .thank-you-content-wrapper .btn-1 {
+        padding: 11.5px 23.5px;
+        font-size: 16px;
+    }
+    /* thank content */
+    /* ============================ content wrapper area end ============================== */
+
+    /* ============================ content wrapper area end ============================== */
+    .other-page-area {
+        padding: 70px 0;
+    }
+    /* ============================ content wrapper area end ============================== */
 
 
 
@@ -623,6 +801,20 @@
         right: -66px;
         max-width: 285px;
         transform: rotateZ(15.12deg);
+    }
+    .content-wrapper-area  .single-banner-shape-2 {
+        top: -160px;
+    }
+    .content-shape-4 {
+        max-width: 200px;
+    }
+    .content-shape-5 {
+        right: 70px;
+        max-width: 100px;
+        bottom: -50px;
+    }
+    .content-shape-7 {
+        max-width: 230px;
     }
     /* shape */
 
@@ -705,6 +897,12 @@
         font-size: 24px;
     }
     /* ============================ our menu area section end ============================== */
+
+    /* ============================ content wrapper area start ============================== */
+    .content-wrapper-img img {
+        height: 350px;
+    }
+    /* ============================ content wrapper area end ============================== */
 	
 }
 
@@ -798,6 +996,9 @@
         .single-banner-shape-2 {
             top: -156px;
         }
+        .content-wrapper-area  .single-banner-shape-2 {
+            top: -148px;
+        }
         /* shape */
 	    /* ============================ header section start ============================== */
         .header-logo img {
@@ -864,6 +1065,20 @@
             margin-top: 36px;
         }
         /* ============================ our menu area section end ============================== */
+
+            
+        /* ============================ content wrapper area start ============================== */
+        .content-wrapper-img img {
+            height: 250px;
+        }
+        /* ============================ content wrapper area end ============================== */
+
+        
+        /* ============================ content wrapper area end ============================== */
+        .other-page-area {
+            padding: 20px 0 76px;
+        }
+        /* ============================ content wrapper area end ============================== */
 }
 
 /* max-width 479 */
@@ -943,7 +1158,42 @@
         right: -12px;
         top: 122px;
     }
-
+    .single-banner-shape-2 {
+        top: -132px;
+        max-width: 167px;
+        right: -37px;
+    }
+    .content-wrapper-area  .single-banner-shape-2 {
+        top: -88px;
+    }
+    .content-shape-2 {
+        max-width: 64px;
+        top: 53px;
+        right: -22px;
+    }
+    .content-shape-3 {
+        max-width: 95px;
+    }
+    .content-shape-6 {
+        top: -8px;
+        left: 31px;
+        max-width: 61px;
+    }
+    .content-shape-4 {
+        max-width: 182px;
+        right: -27px;
+        top: -76px;
+    }
+    .content-shape-5 {
+        right: -12px;
+        max-width: 64px;
+        bottom: 16px;
+    }
+    .content-shape-7 {
+        left: -40px;
+        bottom: 10px;
+        max-width: 212px;
+    }
     /* shape */
     
     /* ============================ chef section start ============================== */
@@ -989,11 +1239,57 @@
         font-size: 34px;
     }
     /* ============================ single banner section end ============================== */
+
+    /* ============================ content wrapper area start ============================== */
+    .content-wrapper-area {
+        padding: 0px 0 58px;
+    }
+    .contact-content h1 {
+        font-size: 31px;
+        margin-bottom: 0;
+    }
+    .contact-content p {
+        font-size: 16px;
+        max-width: 275px;
+    }
+    .contact-content {
+        margin-bottom: 15px;
+    }
+    .contact-form-wrapper  .btn-1 {
+        margin-top: 2px;
+        padding: 8px 24px;
+    }
+    .content-wrapper-img img {
+        height: 182px;
+    }
+
+    /* thank content */
+    .other-conent-wrapper h1 ,
+    .thank-you-content-wrapper h1 {
+        font-size: 31px;
+    }
+    .thank-you-info p {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .thank-you-content-wrapper .btn-1 {
+        margin-bottom: 8px;
+    }
+    .thank-you-area .content-shape-3 {
+        max-width: 73px;
+        bottom: 208px;
+        left: -19px;
+    }
+    /* thank content */
+    /* ============================ content wrapper area end ============================== */
 }
 
 /* max-width 383 */
 @media (max-width: 383.98px) {
-
+    .other-conent-wrapper .btn-1, .thank-you-content-wrapper .btn-1 {
+        padding: 11.5px 18.5px;
+        font-size: 16px;
+    }
 
 }
 

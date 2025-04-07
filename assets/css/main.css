@@ -753,7 +753,6 @@ h6 {
     left: -86px;
     max-width: 494px;
     z-index: -1;
-    opacity: 0.33;
 }
 .testimonial-shape-2 {
     top: 148px;
@@ -970,6 +969,18 @@ h6 {
     top: -28px;
     left: -47px;
 }
+.single-banner-shape-1 {
+    max-width: 309px;
+    top: -258px;
+    right: 27px;
+    opacity: 0.29;
+}
+.single-banner-shape-2 {
+    top: -358px;
+    right: -190px;
+    max-width: 636px;
+    transform: rotateZ(43.96deg);
+}
 /* ============================ single banner section end ============================== */
 
 /* ============================ our menu area section start ============================== */
@@ -1052,13 +1063,11 @@ h6 {
     top: 142px;
     left: 72px;
     max-width: 241px;
-    opacity: 0.35;
 }
 .menu-shape-2 {
     max-width: 786px;
     left: -252px;
     bottom: 133px;
-    opacity: 0.40;
 }
 .menu-shape-3 {
     top: 68px;
@@ -1077,7 +1086,6 @@ h6 {
     max-width: 640px;
     left: -243px;
     top: 150px;
-    opacity: 0.32;
 }
 .menu-shape-6 {
     max-width: 232px;
@@ -1085,11 +1093,9 @@ h6 {
     transform: translateY(-50%) rotate(34.09deg);
     left: 94px;
     margin-top: -40px;
-    opacity: 0.35;
 }
 .menu-shape-7 {
     max-width: 634px;
-    opacity: 0.32;
     left: -221px;
     bottom: 210px;
 }
@@ -1098,29 +1104,107 @@ h6 {
     right: -235.89px;
     top: 250px;
     transform: rotate(40.4deg);
-    opacity: 0.35;
 }
 .menu-shape-9 {
     max-width: 288px;
     top: 614px;
     right: 64px;
     transform: rotate(-26.17deg);
-    opacity: 0.32;
 }
 .menu-shape-10 {
     max-width: 735.88px;
     bottom: 517px;
     right: -220px;
     transform: rotate(-9.26deg);
-    opacity: 0.32;
 }
 .menu-shape-11 {
     max-width: 602px;
     bottom: 109px;
     right: -187px;
     transform: rotate(25.75deg);
+}
+.menu-shape-12 {
+    max-width: 534px;
+    top: 70px;
+    left: -200px;
+}
+.menu-shape-13 {
+    max-width: 441px;
+    bottom: 100px;
+    right: -56px;   
+}
+.menu-shape-14 {
+    top: -414px;
+    left: -147px;
+    max-height: 632px;
+}
+.menu-shape-15 {
+    max-width: 259px;
+    left: 63px;
+    bottom: 155px;
+}
+.menu-shape-16 {
+    max-width: 333px;
+    right: -51px;
+    bottom: 76px;
+    opacity: 0.38;
+    transform: rotate(-39.37deg);
+}
+.menu-shape-17{
+    max-height: 200px;
+    top: 120px;
+    left: -53px;
+}
+.menu-shape-18 {
+    max-width: 703px;
+    left: -340px;
+    transform: rotate(-8.65deg);
+    top: 110px;
+}
+.menu-shape-19 {
+    max-width: 232px;
+    bottom: 128px;
+    right: 100px;
+    transform: rotate(34deg);
+}
+.menu-shape-20 {
+    max-width: 233px;
+    top: 48px;
+    right: -36px;
+}
+
+/* opacity: 0.33  */
+.testimonial-shape-1 ,
+.menu-shape-12 {
+    opacity: 0.33;
+}
+/* opacity: 0.33  */
+.menu-shape-20 ,
+.menu-shape-5,
+.menu-shape-7 ,
+.menu-shape-9,
+.menu-shape-10{
+    opacity: 0.32;
+}
+/* opacity: 0.35  */
+.single-banner-shape-2 ,
+.menu-shape-19 ,
+.menu-shape-18 ,
+.menu-shape-17 ,
+.menu-shape-1 ,
+.menu-shape-6,
+.menu-shape-8,
+.menu-shape-13 ,
+.menu-shape-14 ,
+.menu-shape-15{
+    opacity: 0.35;
+}
+/* opacity: 0.40  */
+.menu-shape-2,
+.menu-shape-11 {
     opacity: 0.4;
 }
+
 /* menu shape  */
 .extra-sides-area {
     margin-top: 70px;

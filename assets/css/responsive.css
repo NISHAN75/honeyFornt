@@ -93,6 +93,8 @@
     .testimonial-shape-1 {
         max-width: 400px;
     }
+    .menu-shape-18 ,
+    .menu-shape-12,
     .menu-shape-7 ,
     .menu-shape-5 {
         max-width: 500px;
@@ -119,6 +121,41 @@
     .menu-shape-11 {
         max-width: 450px;
         right: -100px;
+    }
+    .menu-shape-13 {
+        max-width: 380px;
+    }
+    .menu-shape-15 {
+        max-width: 200px;
+        left: 30px;
+        bottom: 155px;
+    }
+    .menu-shape-14 {
+        top: -200px;
+    }
+    .menu-shape-16 {
+        max-width: 250px;
+        right: -30px;
+        bottom: 50px;
+    }
+    .menu-shape-18 {
+        left: -220px;
+    }
+    .menu-shape-19 {
+        max-width: 180px;
+        bottom: 50px;
+        right: 30px;
+        transform: rotate(34deg);
+    }
+    .menu-shape-20 {
+        max-width: 150px;
+        top: 70px;
+        right: -15px;
+    }
+    .single-banner-shape-2 {
+        top: -250px;
+        right: -150px;
+        max-width: 450px;
     }
     /* shape */
 
@@ -238,6 +275,39 @@
     .menu-shape-11 {
         max-width: 300px;
         right: -50px;
+    }
+    .menu-shape-12 {
+        max-width: 300px;
+        top: 50px;
+        left: -100px;
+    }
+    .menu-shape-13 {
+        max-width: 250px;
+        right: -30px;
+        bottom: 50px;
+    }
+    .menu-shape-14 {
+        top: -100px;
+        max-height: 400px;
+        left: -64px;
+    }
+    .menu-shape-15 {
+        max-width: 120px;
+        left: 20px;
+        bottom: 50px;
+    }
+    .menu-shape-16 {
+        max-width: 150px;
+    }
+    .menu-shape-18 {
+        left: -130px;
+        max-width: 300px;
+    }
+    .menu-shape-19 {
+        max-width: 120px;
+    }
+    .menu-shape-20 {
+        max-width: 120px;
     }
     /* shape */
 
@@ -548,6 +618,12 @@
         bottom: -20px;
         right: -40px;
     }
+    .single-banner-shape-2 {
+        top: -178px;
+        right: -66px;
+        max-width: 285px;
+        transform: rotateZ(15.12deg);
+    }
     /* shape */
 
     /* ============================ header section start ============================== */
@@ -697,6 +773,31 @@
             max-height: 100px;
             right: -70px;
         }
+        .menu-shape-12 {
+            max-width: 200px;
+            top: 139px;
+            left: -34px;
+        }
+        .menu-shape-13 {
+            max-width: 150px;
+            right: -14px;
+            bottom: 133px;
+        }
+        .menu-shape-15 {
+            max-width: 80px;
+            left: auto;
+            bottom: auto;
+            top: 200px;
+            right: 14px;
+        }
+        .menu-shape-16 {
+            max-width: 100px;
+            right: -27px;
+            bottom: 46px;
+        }
+        .single-banner-shape-2 {
+            top: -156px;
+        }
         /* shape */
 	    /* ============================ header section start ============================== */
         .header-logo img {
@@ -726,12 +827,12 @@
             letter-spacing: 4.8px;
         }
         .single-banner-content h2 {
-            font-size: 50px;
+            font-size: 34px;
             letter-spacing: 4.76px;
         }
         .single-banner-content {
             min-height: 145px;
-            padding-bottom: 45px;
+            padding-bottom: 35px;
         }
         .single-banner-content, .single-banner-content::before{
             border-radius: 11px;
@@ -808,6 +909,39 @@
         right: auto;
         left: -57px;
         bottom: 103px;
+    }
+    .menu-shape-12 {
+        max-width: 110px;
+    }
+    .menu-shape-13 {
+        max-width: 91px;
+    }
+    .menu-shape-15 {
+        max-width: 63px;
+    }
+    .menu-shape-17 {
+        max-height: 144px;
+        top: 137px;
+        left: -44px;
+    }
+    .menu-shape-16 {
+        max-width: 82px;
+    }
+    .menu-shape-18 {
+        left: -80px;
+        max-width: 161px;
+        top: 171px;
+    }
+    .menu-shape-19 {
+        max-width: 53px;
+        right: -5px;
+        bottom: 28px;
+    }
+    .menu-shape-20 {
+        max-width: 57px;
+        transform: rotateZ(-46.03deg);
+        right: -12px;
+        top: 122px;
     }
 
     /* shape */
